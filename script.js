@@ -28,7 +28,7 @@ document.addEventListener('DOMContentLoaded', async () => {
     
     try {
         // Fetch items from the API
-        const response = await fetch('http://localhost:3000/api/items');
+        const response = await fetch('https://toddler-learning-app.onrender.com/api/items');
         const items = await response.json();
         
         // Create and append item cards
@@ -47,14 +47,14 @@ function createItemCard(item) {
     card.className = 'item-card';
     
     const img = document.createElement('img');
-    img.src = `http://localhost:3000/api/items/${item.id}/image`;
+    img.src = `https://toddler-learning-app.onrender.com/api/items/${item.id}/image`;
     img.alt = item.name;
     
     card.appendChild(img);
     
     // Add click event to play sound
     card.addEventListener('click', () => {
-        playSound(`http://localhost:3000/api/items/${item.id}/sound`);
+        playSound(`https://toddler-learning-app.onrender.com/api/items/${item.id}/sound`);
         
         // Add a visual feedback when clicked
         card.style.transform = 'scale(0.95)';
