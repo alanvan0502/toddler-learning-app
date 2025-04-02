@@ -1,0 +1,26 @@
+[
+    {
+        "id": "dog",
+        "name": "Dog",
+        "image": "public/images/dog.jpg",
+        "sound": "public/sounds/dog.mp3"
+    },
+    {
+        "id": "cat",
+        "name": "Cat",
+        "image": "public/images/cat.jpg",
+        "sound": "public/sounds/cat.mp3"
+    },
+    {
+        "id": "duck",
+        "name": "Duck",
+        "image": "public/images/duck.jpg",
+        "sound": "public/sounds/duck.mp3"
+    },
+    {
+        "id": "cow",
+        "name": "Cow",
+        "image": "public/images/cow.jpg",
+        "sound": "public/sounds/cow.mp3"
+    }
+] 
